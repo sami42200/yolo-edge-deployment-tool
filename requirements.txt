@@ -1,0 +1,17 @@
+# Core
+ultralytics>=8.3.0
+torch>=2.0.0
+torchvision
+opencv-python>=4.8.0
+numpy
+
+# ONNX export and INT8 quantization
+onnx>=1.15.0
+onnxruntime>=1.16.0
+onnxslim
+
+# Optional — install based on your target format:
+# tensorflow==2.15.0     # for TFLite export (must be 2.15 or lower)
+# openvino>=2024.0       # for OpenVINO export
+# coremltools            # for CoreML export (macOS only)
+# tensorrt               # for TensorRT Engine export (NVIDIA GPU)

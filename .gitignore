@@ -1,0 +1,42 @@
+# Models — don't commit, users download their own
+*.pt
+*.onnx
+*.tflite
+*.engine
+*.mlmodel
+*.ts
+*_openvino_model/
+
+# Exception: keep the calibration sample
+!examples/calibration_sample.npy
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# OS
+Thumbs.db
+desktop.ini
+
+# YOLO cache
+.yolo_edge_cache/
+runs/
+
+# Logs
+*.log
